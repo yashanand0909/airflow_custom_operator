@@ -1,0 +1,16 @@
+redshift_report_group_name = 'd11_report_group'
+athena_report_group_name = 'd11_report_group'
+stage_schema = 'data_stitch_etl_staging'
+stitch_notification_service_url = 'stitch_notification_service'
+stitch_headers = {'accept': '*/*', 'Content-Type': 'application/json', 'msd-user-email': 'airflow_service'}
+titan_auth = 'titan_token'
+titan_headers = {'accept': '*/*', 'Content-Type': 'application/json'}
+character_string = 'character varying'
+s3_path_base = 's3://d11-data-lake-staging/'
+s3_bucket = 'd11-data-lake-staging/'
+s3_main_folder = 'data_stitch/'
+titan_url = 'titan_url'
+titan_resource_tier = 'titan_resource_tier'
+titan_engine_name = 'titan_engine_name'
+titan_job_config_retry = 'titan_job_config_retry'
+titan_job_config_cluster_family = 'titan_job_config_cluster_family'
