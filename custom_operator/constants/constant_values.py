@@ -1,0 +1,16 @@
+redshift_report_group_name = 'report_group'
+athena_report_group_name = 'report_group'
+stage_schema = 'etl_staging'
+stitch_notification_service_url = 'notification_service'
+stitch_headers = {'accept': '*/*', 'Content-Type': 'application/json', 'msd-user-email': 'airflow_service'}
+titan_auth = 'token'
+titan_headers = {'accept': '*/*', 'Content-Type': 'application/json'}
+character_string = 'character varying'
+s3_path_base = 's3://staging/'
+s3_bucket = 'staging/'
+s3_main_folder = 'stitch_mate/'
+titan_url = 'url'
+titan_resource_tier = 'tier'
+titan_engine_name = 'name'
+titan_job_config_retry = 'retry'
+titan_job_config_cluster_family = 'family'
